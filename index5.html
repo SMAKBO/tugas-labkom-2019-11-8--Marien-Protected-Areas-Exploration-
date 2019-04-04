@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>Topic 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-color:#3366ff;
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#Exploration" class="w3-button w3-block w3-black">Exploration</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Question" class="w3-button w3-block w3-black">Question</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Material" class="w3-button w3-block w3-black">Material</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Topic<br>2</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="Exploration">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE TOPIC</span></h5>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <img src="Fish.jpg" style="width:100%;max-width:2000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="Question">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Question</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, '1');">
+        <div class="w3-col s6 tablink">1 </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2');">
+        <div class="w3-col s6 tablink">2</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '3');">
+        <div class="w3-col s6 tablink">3</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '4');">
+        <div class="w3-col s6 tablink">4</div>
+      </a>
+    </div>
+
+    <div id="1" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Aktifkan Pengetahuan Sebelumnya dengan Meninjau Tujuan dan Pentingnya Kawasan Konservasi Laut.</h5>
+      <p class="w3-text-black">1. Lakukan diskusi seluruh kelas. Tanyakan: Apa tujuan KKL? (KKL adalah “setiap area lingkungan laut yang telah dicadangkan oleh undang-undang atau peraturan federal, negara bagian, teritorial, suku, atau lokal untuk memberikan perlindungan yang langgeng bagi sebagian atau semua sumber daya alam dan budaya di dalamnya.”)</p>
+    
+      <p class="w3-text-black">2. Apakah pembentukan Kawasan Konservasi Laut itu penting? Mengapa? Bagaimana jika tidak?</p><br>
+    
+    </div>
+
+    <div id="2" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Selama Periode Kelas Berikutnya, Bahas Tugas Membaca Studi Kasus MPA dan Lembar Kerja.</h5>
+      <p class="w3-text-black">1. Bagaimana kesamaan kedua KKL?</p>
+    
+      <p class="w3-text-black">2. Bagaimana Perbedaan kedua KKL?</p><br>
+
+    </div>
+
+    <div id="3" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Perkenalkan Sistem Klasifikasi MPA AS dan Mintalah Siswa Mengklasifikasikan Dua Studi Kasus MPA Mereka.</h5>
+      <p class="w3-text-black">1. Apa lima karakteristik fungsional yang umum bagi kebanyakan KKL? (fokus konservasi, tingkat perlindungan, keabadian perlindungan, keteguhan perlindungan, dan skala perlindungan ekologis)</p>
+    
+      <p class="w3-text-black">2. Mengapa sistem klasifikasi ini sangat penting dalam pembentukan dan pengelolaan KKL? (Sistem klasifikasi lima tingkat ini menguraikan "Mengapa situs ini didirikan, apa yang dimaksudkan untuk melindungi, bagaimana ia mencapai perlindungan itu, dan bagaimana hal itu dapat mempengaruhi ekosistem lokal dan penggunaan manusia lokal.")</p><br>
+    
+    </div>
+
+    <div id="4" class="w3-container menu w3-padding-48 w3-card">
+      <h5> Adakan Diskusi Seluruh Kelas tentang Klasifikasi Siswa.</h5>
+      <p class="w3-text-black">1. Mengapa penting untuk mengklasifikasikan KKL menggunakan sistem ini? Menurut Anda, masalah apa yang mungkin dihadapi manajer MPA jika klasifikasi dan kriteria ini tidak ditetapkan?</p><br>
+      
+    </div>
+    <img src="Nemo.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="Material" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Material for The Topic</span></h5>
+
+  <div class="w3-content" style="max-width:700px">
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'A');">
+        <div class="w3-col s6 tablink">A</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'B');">
+        <div class="w3-col s6 tablink">B</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'C');">
+        <div class="w3-col s6 tablink">C</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'D');">
+        <div class="w3-col s6 tablink">D</div>
+      </a>
+    </div>
+
+    <div id="A" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Aktifkan Pengetahuan Sebelumnya dengan Meninjau Tujuan dan Pentingnya Kawasan Konservasi Laut.</h5>
+      <p class="w3-text-black">1. KKL (Kawasan Konservasi Laut) dapat melindungi ikan dan satwa dan fauna laut lainnya yang terancam kelangsungannya akibat plastik, pestisida, dan racun yang mencemari laut. Ketika ikan meminum racun yang dilepaskan oleh plastik yang dibuang sembarangan, racun itu masuk ke dalam rantai makanan dan membahayakan satwa dan manusia. Namun, dengan KKL, sejumlah kawasan laut punya peluang terbebas dari sisa plastik, sehingga memungkinkan habitat laut dan spesies di sekitarnya pulih dan berkembang. Semua KKL bertujuan melindungi berbagai kehidupan dan habitat laut.</p>
+    
+      <p class="w3-text-black">2. Pembentukan Kawasan Konservasi Laut itu penting, karena untuk mengembangkan pariwisata bahari laut dari sumber daya laut yang terjaga sehingga bisa mendatangkan keuntungan ekonomi bagi masyarakat dan pemerintah.</p><br>
+    
+    </div>
+
+    <div id="B" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Selama Periode Kelas Berikutnya, Bahas Tugas Membaca Studi Kasus MPA dan Lembar Kerja.</h5>
+      <p class="w3-text-black">1.Persamaan : <br>
+a.Mengusahakan terwujudnya kelestarian sumber daya alam hayati laut dan ekosistemnya di daerah untuk mendukung peningkatan kesejahteraan masyarakat. <br>
+b.Melindungi dan mengelola keterwakilan  tipe-tipe ekosistem penting di wilayah pesisir dan laut untuk menjamin keberlanjutan fungsi ekologis jangka panjang. <br>
+c.Sebagai suatu  kawasan untuk pemanfaatan sumber daya alami bagi kepentingan wisata dan rekreasi, pendidikan, penelitian dan bentuk lain yang tidak bertentangan dengan prinsip konservasi. <br>
+d.Sebagai tempat pengembangan program pengelolaan sumberdaya ikan dan lingkungannya oleh masyarakat dan atau masyarakat adat terkait dengan praktek-praktek budaya tradisional, dan
+Sebagai tempat untuk pengembangan program interprestasi sumberdaya alam dan lingkungannya dalam rangka mendukung konservasi, rekreasi, pendidikan dan </p>
+    
+      <p class="w3-text-black">2.Perbedaan : <br>
+DPL merupakan suatu kawasan di pesisir dan laut yang dilindungi yang dibentuk dan dapat ditetapkan oleh masyarakat di tingkat desa atau kampung melalui Perdes/Perkam. Luasan DPL umumnya persentase luasan perairan wilayah desa atau kampung tersebut.
+KKL merupakan suatu kawasan di pesisir dan laut yang dilindungi yang ditunjuk oleh Bupati/Walikota/Gubernur dan ditetapkan oleh Menteri Kelautan dan Perikanan. Luasan KKL dapat berada di wilayah Kabupaten/Kota (disebut sebagai kawasan konservasi laut daerah) dan dapat berada di wilayah propinsi (antar kabupaten) atau antar propinsi (disebut </p><br>
+
+    </div>
+
+    <div id="C" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Perkenalkan Sistem Klasifikasi MPA AS dan Mintalah Siswa Mengklasifikasikan Dua Studi Kasus MPA Mereka.</h5>
+      <p class="w3-text-black">1. Menurut Peraturan Pemerintah Nomor 60 Tahun 2007 tentang Konservasi Sumberdaya Ikan, konservasi sumberdaya ikan dilakukan pada tatanan ekosistem, jenis ikan dan genetik,selanjutnya disebutkan bahwa konservasi ekosistem tersebut dilakukan melalui kegiatan : (1) Perlindungan habitat dan populasi ikan; (2) Rehabilitasi habitat dan populasi ikan; (3) Penelitian dan pengembangan; (4) Pemanfaatan sumberdaya ikan dan jasa lingkungan; (5) Pengawasan pengendalian, dan (6) Monitoring dan evaluasi.</p>
+    
+      <p class="w3-text-black">2. Mintalah siswa membuka bagian “Panduan Pengguna untuk Sistem Klasifikasi” dari handout NOAA. Diskusikan kriteria yang terdiri dari masing-masing dari lima tingkat sistem klasifikasi MPA. Mintalah siswa mengikuti menggunakan lembar kerja Klasifikasi MPA mereka dan membuat catatan. Mengatasi persyaratan apa pun yang mungkin asing bagi mereka. Baca dengan lantang arahan pada lembar kerja Klasifikasi Area Perlindungan Laut mereka. Beri tahu siswa bahwa mereka akan menggunakan kriteria Klasifikasi MPA AS untuk mengklasifikasikan MPA Point Sur dan Cocos Island. Jelaskan bahwa tidak ada set klasifikasi yang benar atau salah, tetapi mereka harus mendukung penunjukan klasifikasi mereka. Tugas mereka adalah bekerja bersama dan membuat keputusan berdasarkan informasi tentang opsi klasifikasi manajemen terbaik untuk setiap studi kasus. Berikan siswa waktu yang cukup untuk membahas setiap studi kasus dan berikan satu set klasifikasi</p><br>
+    
+    </div>
+
+    <div id="D" class="w3-container menu w3-padding-48 w3-card">
+      <h5> Adakan Diskusi Seluruh Kelas tentang Klasifikasi Siswa.</h5>
+      <p class="w3-text-black">1. Image Below</p><br>
+      
+    </div><br>
+
+   
+    <img src="Picture1.png" class="w3-image" style="width:100%"> <br>
+    <img src="Picture2.png" class="w3-image" style="width:100%">
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

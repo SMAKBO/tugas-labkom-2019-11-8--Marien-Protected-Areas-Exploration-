@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<title>Topic 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-color:#ff1a1a;
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#Exploration" class="w3-button w3-block w3-black">Exploration</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Question" class="w3-button w3-block w3-black">Question</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#Material" class="w3-button w3-block w3-black">Material</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:80px">Marine<br>Protected Areas</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="Exploration">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE TOPIC</span></h5>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <img src="Fish.jpg" style="width:100%;max-width:2000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="Question">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Question</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, '1');">
+        <div class="w3-col s6 tablink">1 </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '2');">
+        <div class="w3-col s6 tablink">2</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '3');">
+        <div class="w3-col s6 tablink">3</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, '4');">
+        <div class="w3-col s6 tablink">4</div>
+      </a>
+    </div>
+
+    <div id="1" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black">Mengapa orang menghargai taman nasional dan area daratan lain yang dilindungi? Apakah manusia menghargai kawasan lindung laut dengan cara yang sama? Mengapa atau mengapa tidak? </p>
+    
+    </div>
+
+    <div id="2" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black">  Apakah Anda pikir sistem kawasan lindung laut diperlukan? Mengapa iya atau mengapa tidak?</p>
+    </div>
+
+    <div id="3" class="w3-container menu w3-padding-48 w3-card">
+       <p class="w3-text-black"> Apa faktor ekologis dan manusia yang harus dipertimbangkan ketika membangun kawasan lindung laut?</p>
+
+    </div>
+
+    <div id="4" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black"> Apakah penetapan kawasan lindung merupakan satu-satunya cara untuk melestarikan sumber daya alam dan budaya suatu daerah? Berikan dua atau tiga alternatif yang dapat membantu melindungi ekosistem darat atau laut. <br>
+      Nilai apa yang bisa diberikan oleh kawasan lindung laut kepada masyarakat?</p>
+    
+    </div>
+    <img src="Nemo.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="Material" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Material for The Topic</span></h5>
+
+  <div class="w3-content" style="max-width:700px">
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'A');">
+        <div class="w3-col s6 tablink">A</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'B');">
+        <div class="w3-col s6 tablink">B</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'C');">
+        <div class="w3-col s6 tablink">C</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'D');">
+        <div class="w3-col s6 tablink">D</div>
+      </a>
+    </div>
+
+    <div id="A" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black">Jawaban : <br> Karena diperlukan untuk memberi kesempatan bagi ikan dan tumbuhan laut untuk tumbuh dan berkembang biak. Dan itu semua dapat dijadikan dasar pemahaman dan informasi tentang bagaimana seharusnya ekosistem kehidupan biota laut yang baik, terutama untuk generasi manusia setelahnya. Sehingga dapat dijadikan obyek pariwisata penyelaman untuk melihat kehidupan biota laut tanpa menangkapnya. Dan dapat menikmati keindahan panorama alam dilaut. <br>
+      Untuk melindungi dan menghargai kawasan lindung laut, tidak dilakukan cara yang sama sebab tergantung dari kebutuhan dan kebijakan dari negara itu sendiri, seperti contoh ada beberapa KKL masih memperbolehkan aktivitas penangkapan ikan dengan izin atau rekreasi, tapi ada juga KKL yang melarangnya. KKL bisa dibentuk di sepanjang garis pantai, sekitar terumbu karang, pulau atau perikanan daratan, bahkan benar-benar jauh dari darat. Namun tetap, semua KKL bertujuan melindungi berbagai kehidupan dan habitat laut.</p>
+    </div>
+
+    <div id="B" class="w3-container menu w3-padding-48 w3-card">
+     <p class="w3-text-black">Jawaban : <br> tentu sangat diperlukan, anda suka kari ikan atau udang bakar? Jika ya, maka Anda pasti akan senang mendengar tentang Kawasan Konservasi Laut (Marine Protected). KKL dapat melindungi ikan – dan satwa dan fauna laut lainnya – yang terancam kelangsungannya akibat plastik, pestisida, dan racun yang mencemari laut. Ketika ikan minum racun yang dilepaskan oleh plastik yang dibuang sembarangan, racun itu masuk ke dalam rantai makanan dan membahayakan satwa dan manusia. Namun, dengan KKL,sejumlah kawasan laut punya peluang terbebas dari sisa plastik, sehingga memungkinkan habitat laut dan spesies di sekitarnya pulih dan berkembang. Serta dapat meningkatkan fungsi lindung terhadap tanah, air, iklim, tumbuhan dan satwa serta nilai sejarah dan budaya bangsa. Dan dapat mempertahankan keanekaragaman tumbuhan, satwa, tipe ekosistem, dan keunikan alam. Sebenarnya kawasan yang ditetapkan dengan fungsi utama melindungi kelestarian lingkungan hidup yang mencakup sumber alam, sumber daya buatan dan nilai sejarah serta budaya bangsa guna kepentingan pembangunan berkelanjutan.</p>
+    </div>
+
+    <div id="C" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black">Jawaban: <br> 1. Kepentingan dan faktor biogeografi dan biodiversity, Apakah lokasi tersebut mengandung spesies langka (contoh geografi yang unik,  dapat dijadikan contoh habitat alamiah khusus bagi dunia). <br>
+      2. Kepentingan ekologi, Apakah lokasi tersebut penting untuk dijaga proses ekologinya untuk menjamin sistem pertumbuhan alamiah, sebagai daerah larva atau pemijahan dan berhubungan dengan MPA lainnya. <br>
+      Daerah estuaria sebagai daerah mencari makan, pemijahan, pemeliharaan larva ikan. <br>
+      Kepentingan ekonomis, Penting untuk kelangsungan lapangan kerja di laut karena menjamin penyediaan daerah larva dan pembiakan ikan-ikan yang akan ditangkap. <br>
+      Sebagai contoh, Nelayan merupakan salah satu masyarakat yang mengandalkan laut sebagai sumber penghasilan. <br>
+      3.Kepentingan sosial, Merupakan daerah yang berharga bagi masyarakat lokal maupun nasional karena mempunyai nilai sejarah dan budaya tradisional dan memberikan manfaat bagi pendidikan dan rekreasi. <br>
+      4. Kepentingan ilmiah, Berguna untuk dijadikan kawasan studi dan penelitian untuk pengembangan pengetahuan. <br>
+      Sebagai contoh, Penanaman Mangrove bersama pelajar/mahasiswa sebagai upaya mencintai kawalan perairan laut. <br>
+      5.Kepentingan nasional & internasional, Dapat dimasukkan ke dalam daftar kekayaan alam bagi dunia, Taman Nasional, atau menjadi bagian dari perjanjian internasional dalam konservasi alam.
+      Taman Nasional menjadikan ekosistem laut menjadi sehat <br>
+      6. Kepentingan praktis dan kelayakannya, MPA dapat diterima dan didukung masyarakat sekitarnya, dan lokasi cukup stabil serta terlindung dari faktor kerusakan alamiah. Harus dipastikan pelaksanaan pengelolaannya memungkinkan.</p><br>
+
+    </div>
+
+    <div id="D" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-black">Jawaban : <br> nilai yang dapat diberikan adalah kepedulian untuk menjaga lingkungan demi kesejahteraan bersama, dengan contoh tidak membuang sampah di sungai, tidak sembarangan membunuh atau mengambil hewan langka demi kepentingan sendiri dan ikut berpartisipasi dalam menjaga ekosistem yang ada pada bumi ini. <br>
+      Jika siswa kesulitan memberikan alternatif yang dapat membantu melindungi ekosistem darat atau laut, berikan mereka contoh-contoh berikut: tangkapan ikan dapat dikelola dengan membatasi ukuran dan jumlah ikan yang ditangkap; jalur tertentu mungkin ditutup untuk sementara waktu sehingga vegetasi dan satwa liar dapat dibangun kembali tanpa campur tangan manusia; dan beberapa jenis pembangunan, seperti pengeboran minyak, pertambangan batu bara, industri, dan tempat tinggal pesisir, mungkin ilegal di wilayah tertentu karena adanya habitat kritis atau spesies yang terancam punah.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
